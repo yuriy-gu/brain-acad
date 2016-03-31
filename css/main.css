@@ -32,7 +32,6 @@ article h1 {
 .contacts {
 	background-color: #363636;
 }
-.top_img img:hover,
 .top_article img:hover,
 .bottom_article_img img:hover {
 -moz-transform: matrix(2, 0, 0, 2, 0, 0);
