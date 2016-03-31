@@ -1,0 +1,16 @@
+table {
+  width: 150px;
+}
+td, th, tr {
+  border: 1px solid red;
+}
+
+::-webkit-input-placeholder {color:#c0392b;}
+::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c0392b;}
+
+#fieldset {
+  width: 400px;
+  border: 2px dotted red;
+}
