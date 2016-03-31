@@ -32,8 +32,14 @@ article h1 {
 .contacts {
 	background-color: #363636;
 }
-
-
+.top_img img:hover,
+.top_article img:hover,
+.bottom_article_img img:hover {
+-moz-transform: matrix(2, 0, 0, 2, 0, 0);
+    -webkit-transform: matrix(2, 0, 0, 2, 0, 0);
+    -o-transform: matrix(2, 0, 0, 2, 0, 0);
+    -ms-transform: matrix(2, 0, 0, 2, 0, 0);
+}
 /*header*/
 header {
 	background-color: #d7d7d7;
