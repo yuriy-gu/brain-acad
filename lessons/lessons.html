@@ -3,120 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <title>lessons</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <table>
-    <caption>table 1.2</caption>
-    <thead>
-      <tr>
-        <th>1</th><th>2</th>
-      </tr>
-    </thead>
-    <tfoot>
-      <tr>
-        <td>1</td><td>2</td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <tr>
-        <td>1</td><td>2</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
+<div class="block">
   
-  <table id="table">
-    <caption>table 1.3.</caption>
-    <tr id="tr">
-      <td colspan="2">title</td>
-    </tr>
-    <tr>
-      <td rowspan="2">1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>3</td>
-    </tr>
-  </table>
-  <hr />
-  
-  <form action="handler.php" method="post" name="feedback">
-    <input type="submit" value="send" /><br />
-    <input type="text" value="text..."/><br />
-    <input type="button" value="ok"/><br />
-    <input type="checkbox" /><br />
-    <input type="radio" /><br />
-    <input type="file" /><br />
-    <input type="hidden" /><br />
-    <input type="password" /><br />
-    <input type="reset" /><br />
-  </form>
-  <hr />
-  
-  <select name="" id="" size="5" multiple
->
-    <optgroup label="first group">
-      <option value="">1</option>
-      <option value="">2</option>
-      <option value="">3</option>
-    </optgroup>
-    <optgroup label ="second group">
-      <option value="">1st</option>
-      <option value="">2nd</option>
-      <option value="">3d</option>
-    </optgroup>
-  </select>
-  <hr />
-  
-  <textarea name="" id="" cols="50" rows="10" placeholder="enter ur message"></textarea>
-  <hr />
-  
-  <label for="first">first</label><input type="radio" id="first" name="oneGroup" />
-  <label for="second">second</label><input type="radio" id="second" name="oneGroup" />
-  <hr />
-  
-  <fieldset id="fieldset">
-  <legend>this is a legend</legend>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatum distinctio adipisci aliquam aspernatur quasi? Iusto, porro, maxime. Ipsam eos cupiditate distinctio consectetur dolorum, minima excepturi molestiae repellat, porro facilis.
-	</fieldset>
-	<hr />
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.2967235490523!2d36.21643611595353!3d50.02453557941876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a137aee54565%3A0xde783d2ee8e7060c!2z0L_RgNC-0LIuINCe0YLQsNC60LDRgNCwINCv0YDQvtGI0LAsINCl0LDRgNC60ZbQsiwg0KXQsNGA0LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1459443432596" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
+<br>
+<hr>
+<div class="slider">
+  <div class="slider_text">
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi .
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque. Lorem ipsum dolor.
+     </p>
+     <p>
+      Lorem ipsum dolor sit amet, consectetur elit. Dolorum minima quasi itaque. Lorem ipsum.
+     </p>
+     <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque Lorem ipsum.
+     </p>
+     <hr>
+  </div>
+  <div class="slider_img">
+    <a href="#" class="item">
+      <img src="../img/sliderImg1.png" alt="alt">
+      <span class="item_name">lorem Ipsum</span>
+    </a>
+  </div>
+    <div class="slider_img">
+    <a href="#">
+      <img src="../img/sliderImg2.png" alt="alt">
+      <span class="item_name">lorem Ipsum</span>
+    </a>
+  </div>
+    <div class="slider_img">
+    <a href="#">
+      <img src="../img/sliderImg3.png" alt="alt">
+      <span span class="item_name">lorem Ipsum</span>
+    </a>
+  </div>
+    <div class="slider_img">
+    <a href="#">
+      <img src="../img/sliderImg4.png" alt="alt">
+      <span span class="item_name">lorem Ipsum</span
+    </a>
+  </div>
+</div>
 	
-	<!--our html form-->
-	<form action="" method="post">
-  <h1>this is a form</h1>
-  <h2>here u can send us a message</h2>
-  <div>
-      <label for="name">ur name:</label><input type="name" id="name" />
-  </div>
-  <div>
-      <label for="email">ur e-mail:</label><input type="email" id="email" />
-  </div>
-  <h2>choose ur theme for message and write to us</h2>
-  <div>
-      <label for="theme">theme of email</label>
-      <select name="" id="theme">
-        <optgroup>
-            <option value="">pick a theme</option>
-            <option value="">1</option>
-            <option value="">2</option>
-        </optgroup>  
-      </select>
-  </div>
-  <div>
-      <label for="message">message</label>
-      <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-  </div>
-  <h2>enter a capcha and put on "send"</h2>
-  <div>
-      <label>9 + 18 =</label><input type="text" />
-  </div>
-  <div>
-  <input type="submit" value="send" />
-  <input type="reset" value="clear"/>
-  </div>
-</form>
-	
+
+
 	</body>
 </html>

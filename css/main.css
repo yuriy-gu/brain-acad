@@ -1,11 +1,22 @@
+@font-face {
+    font-family: 'playball';
+    src: url('../fonts/playball/playball.eot');
+    src: url('ptsans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playball/playball.woff') format('woff'),
+         url('../fonts/playball/playball.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	background-color: #fff;
+	font-family: 'playball';
 	font-size: 100%;
 }
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 768px;
+	max-width: 776px;
 }
 
 .catalog h1,
@@ -15,17 +26,6 @@ article h1,
 	padding-bottom: 15px;
 	text-align: center;
 }
-
-.catalog h1,
-.contacts h1,
-.top_text p {
-	color: #fff;
-}
-
-article h1 {
-	color: #000;
-}
-
 
 /* global */
 
@@ -53,7 +53,6 @@ article,
 }
 
 .top_img img,
-.slider_img img,
 .catalog_img img,
 article img,
 .contacts img {
@@ -87,7 +86,7 @@ nav ul li:last-child{
 	padding-right: 0;
 }
 nav a:hover {
-	color: azure;
+	color: darkorange;
 }
 
 
@@ -101,6 +100,7 @@ nav a:hover {
 	margin-top: 50px;
 }
 .top_text p {
+	color: #fff;
 	font-size: 0.875rem;
 	padding-bottom: 20px;
 	text-transform: uppercase;
@@ -111,6 +111,15 @@ nav a:hover {
 
 
 /* ================ slider ================ */
+/*if div > p - all p in div only if div is parent */
+/*if div + p - only for next(first) p which folowed after div (div ++ p only for second p)*/
+/*a:link | a:visited | a:hover | a:active*/
+/*list-style-position: inside | outside*/
+/*list-style: list-style-type || list-style-position || list-style-image*/
+
+/*git pull*/
+/*git remote*/
+
 .slider {
 	background-color: #f2f2f2;
 	text-align: center;
@@ -128,24 +137,30 @@ nav a:hover {
 	margin-top: 20px;
 }
 .slider_img {
-	display: flex;
-	margin: 30px 15px;
-}
-.slider_img figure:first-child {
-	margin-left: 0;
-}
-.slider_img figure {
-	margin-left: 40px;
+	background-color: #fff;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	margin: 12px;
 }
 .slider_img img {
-	background-color: #fff;
+	border: 3px solid #00A1D2;
 	height: 130px;
-	padding: 5px;
+	padding: 10px;
 	width: 140px;
 }
-.slider_img figure p {
-	margin-bottom: 10px;
+.slider_img a {
+	color: #b6b6b6;
 }
+.item_name {
+	background-color: #f2f2f2;
+	color: #00A1D2;
+	display: block;
+	padding-top: 10px;
+}
+/* navigation */
 .navigation {
 	position: absolute;
 }
@@ -154,7 +169,7 @@ nav a:hover {
 	display: block;
 	height: 22px;
 	position: relative;
-	top: -135px;
+	top: -175px;
 	width: 32px;
 }
 .navigation span.prev {
@@ -166,17 +181,21 @@ nav a:hover {
 	background:  url(../img/arrows.png) no-repeat 100% 0;
 	left: 770px;	
 }
-.thumbnails li {
-	background-color: #555;
+.pagination li {
+	background-color: #024FF3;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	display: inline-flex;
 	height: 20px;
+	margin-left: 10px;
 	width: 20px;
 }
 
 /* ================ catalog ================ */
+.catalog h1 {
+	color: red;
+}
 .catalog table {
 	float: left;
 	width: 56%;
@@ -250,3 +269,5 @@ footer {
 	flex-direction: column;
 	width: 32%;
 }
+
+/*make a footer 1st column - text then social(vk, facebook etc) img-sprite*/

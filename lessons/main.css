@@ -1,18 +1,51 @@
-table {
-  width: 150px;
-}
-td, th, tr {
-  border: 1px solid red;
-}
+/*if div > p - all p in div only if div is parent */
+/*if div + p - only for next(first) p which folowed after div (div ++ p only for second p)*/
+/*a:link | a:visited | a:hover | a:active*/
+/*list-style-position: inside | outside*/
+/*list-style: list-style-type || list-style-position || list-style-image*/
 
-::-webkit-input-placeholder {color:#c0392b;}
-::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
-:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#c0392b;}
+/*git pull*/
+/*git remote*/
 
-#fieldset {
-  width: 400px;
-  border: 2px dotted red;
+.block {
+	background-color: green;
+	height: 100px;
+	width: 400px;
 }
-/*in catalog we have to make a table: 1st - name of the product second + third - whiz 10 td*/
-/*http://master-css.com/demo/form/*/
+.slider {
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.slider_text h1,
+.slider_text p {
+	color: #444;
+}
+.slider_text p {
+	padding-top: 5px;
+}
+.slider hr {
+	background-color: #b6b6b6;
+	height: 3px;
+	margin-top: 20px;
+}
+.slider_img {
+	background-color: #fff;
+	border: 3px solid #cccaca;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	padding: 10px;
+	margin: 0 20px;
+}
+.slider_img a {
+	color: #b6b6b6;
+}
+.slider_img img {
+	height: 130px;
+	width: 140px;
+}
+.item_name {
+	display: block;
+}
