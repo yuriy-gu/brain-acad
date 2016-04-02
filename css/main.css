@@ -142,6 +142,9 @@ nav a:hover {
 	padding: 10px;
 	width: 140px;
 }
+.slider_img a:hover {
+	background-color: #0DBFF5;
+}
 .slider_img a {
 	color: #b6b6b6;
 }
@@ -262,3 +265,4 @@ footer {
 }
 
 /*make a footer 1st column - text then social(vk, facebook etc) img-sprite*/
+/*float если мы используем свойство float - обтекание элементов, то после надо создать блок div и прописать ему clear:both;*/
