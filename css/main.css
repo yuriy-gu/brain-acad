@@ -39,8 +39,7 @@ article,
 }
 
 .top_content,
-.catalog,
-.contacts {
+.catalog {
 	background-color: #363636;
 }
 
@@ -62,11 +61,11 @@ article img,
 
 /* ================ header ================ */
 header {
-	background-color: #d7d7d7;
+	background-color: #00A1D2;
 	height: 50px;
 }
 header img {
-	background-color: azure;
+	background-color: #00A1D2;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
@@ -206,11 +205,12 @@ nav a:hover {
 
 /* ================ about us ================ */
 article {
-	background-color: #f2f2f2;
+	background-color: #064954;
 	text-align: justify;
 }
 article img {
 	background-color: #fff;
+	border-radius: 20px;
 }
 .top_article img {
 	float: left;
@@ -227,7 +227,10 @@ article img {
 	margin-bottom: 0;
 }
 
-/* =============== contacts =============== */
+/* =============== contacts (form) =============== */
+.contacts {
+	background-color: #1F1D1D;
+}
 .contacts form {
 	text-align: center;
 	margin: 0 167px;
@@ -239,7 +242,7 @@ article img {
 }
 
 .contacts form label {
-	color: #a8a7a8;
+	color: #E8DB25;
 	float: left;
 	text-align: left;
 	width: 30%;
@@ -248,21 +251,121 @@ article img {
 	margin-bottom: 10px;
 	width: 195px;
 }
-
-
+.contacts textarea {
+	margin: 10px 0;
+}
+#buttons input {
+	background-color: #00a1d2;
+	border-radius: 10px;
+	border: none;
+	margin: 0 24px;
+	padding: 5px;
+	width: 110px;
+}
+#buttons input:hover {
+	background-color: #00C3FF;
+	border: none;
+}
 
 
 
 /* =============== footer =============== */
 footer {
-	height: 200px;
-	background-color: #f2f2f2;
+	height: 150px;
+	background-color: #064954;
 }
 .boxes {
 	display: inline-flex;
 	flex-direction: column;
-	width: 32%;
+	margin: 20px 0;
+}
+/* sprites */
+.social {
+	margin-right: 5%;
+	text-align: center;
+	width: 36%;	
+}
+.social p {
+	color: #25A707;
+	font-size: 1.125rem;
+	font-weight: bold;
+}
+.social a {
+	float: left;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+.fb,
+.fb:hover,
+.rss,
+.rss:hover,
+.tw,
+.tw:hover,
+.utube,
+.utube:hover,
+.vk,
+.vk:hover {
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+}
+.fb {
+	background: url(../img/social-sprite.png) 2% 91%;
+}
+.fb:hover {
+	background: url(../img/social-sprite.png) 2% 50%;
+}
+.rss {
+	background: url(../img/social-sprite.png) 59.6% 91%;
+}
+.rss:hover {
+	background: url(../img/social-sprite.png) 59.6% 50%;
+}
+.tw {
+	background: url(../img/social-sprite.png) 79% 91%;
+}
+.tw:hover {
+	background: url(../img/social-sprite.png) 79% 50%;
+}
+.utube {
+	background: url(../img/social-sprite.png) 98% 91%;
+}
+.utube:hover {
+	background: url(../img/social-sprite.png) 98% 50%;
+}
+.vk {
+	background: url(../img/social-sprite.png) 88.7% 91%;
+}
+.vk:hover {
+	background: url(../img/social-sprite.png) 88.7% 50%;
 }
 
+.footer_nav {
+	float: right;
+}
+.footer_nav li {
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+}
+.footer_nav a {
+	border-radius: 10px;
+	background-color: #363636;
+	color: #25A707;
+	padding: 5px;
+	width: 70px;
+}
+.footer_nav a:hover {
+	color: #363636;
+	background-color: #3EF115;
+}
+.footer_bttm {
+	text-align: center;
+}
+
+
+.clearfix {
+	clear: both;
+}
 /*make a footer 1st column - text then social(vk, facebook etc) img-sprite*/
 /*float если мы используем свойство float - обтекание элементов, то после надо создать блок div и прописать ему clear:both;*/
