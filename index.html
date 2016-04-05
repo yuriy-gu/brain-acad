@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<title>brain acdaemy</title>
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/main.css" />
@@ -12,6 +12,9 @@
 			<img src="img/logo.png" alt="brain academy">
 			<nav>
 				<ul>
+					<li>
+						<a href="#promo">Promo</a>
+					</li>
 					<li>
 						<a href="#slider">Slider</a>
 					</li>
@@ -31,10 +34,10 @@
 			</nav>
 		</div>
 		<!-- /wrapper-->
+		<div class="clearfix"></div>
 	</header>
-
 	<!-- top content -->
-	<section class="top_content">
+	<section class="top_content" id="promo">
 		<div class="wrapper">
 			<div class="top_text">
 				<p>
@@ -54,50 +57,41 @@
 			<!-- /top_img -->
 		</div>
 		<!-- /wrapper-->
+		<div class="clearfix"></div>
 	</section>
 
 	<div class="slider" id="slider">
 		<div class="wrapper">
-			<div class="slider">
-				<div class="slider_text">
-					<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi .
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque. Lorem ipsum dolor.
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur elit. Dolorum minima quasi itaque. Lorem ipsum.
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque Lorem ipsum.
-					</p>
-					<hr></div>
-				<div class="slider_img">
-					<a href="#" class="item">
-						<img src="img/Spirit XT185.jpeg" alt="alt">
-						<span class="item_name">lorem Ipsum</span>
-					</a>
-				</div>
-				<div class="slider_img">
-					<a href="#">
-						<img src="img/USA Style (SS-401).jpeg" alt="alt">
-						<span class="item_name">lorem Ipsum</span>
-					</a>
-				</div>
-				<div class="slider_img">
-					<a href="#">
-						<img src="img/USA Style (SS-1365).jpeg" alt="alt">
-						<span span class="item_name">lorem Ipsum</span>
-					</a>
-				</div>
-				<div class="slider_img">
-					<a href="#">
-						<img src="img/FitLogic BF6100.jpeg" alt="alt">
-						<span span class="item_name">lorem Ipsum</span>
-					</a>
-				</div>
+			<div class="slider_text">
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+				<h2>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi .
+				</h2>
+				<h2>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur elit. Dolorum minima quasi itaque. Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi itaque Lorem ipsum.
+				</h2>
+			</div>
+			<!-- /slider_text-->
+			<div class="slider_img">
+				<a href="#">
+					<img src="img/Spirit XT185.jpeg" alt="alt">
+					<span class="item_name">lorem Ipsum</span>
+				</a>
+
+				<a href="#">
+					<img src="img/USA Style (SS-401).jpeg" alt="alt">
+					<span class="item_name">lorem Ipsum</span>
+				</a>
+
+				<a href="#">
+					<img src="img/USA Style (SS-1365).jpeg" alt="alt">
+					<span span class="item_name">lorem Ipsum</span>
+				</a>
+
+				<a href="#">
+					<img src="img/FitLogic BF6100.jpeg" alt="alt">
+					<span span class="item_name">lorem Ipsum</span>
+				</a>
 			</div>
 			<!-- /slider_img-->
 			<div class="pagination">
@@ -107,10 +101,12 @@
 					<li></li>
 				</ul>
 			</div>
+			<!-- /pagination -->
 			<div class="navigation">
 				<span class="prev"></span>
 				<span class="next"></span>
 			</div>
+			<!-- /navigation -->
 		</div>
 		<!-- /wrapper-->
 	</div>
@@ -119,73 +115,75 @@
 	<!-- catalog -->
 	<section class="catalog" id="catalog">
 		<div class="wrapper">
-			<h1>Catalog</h1>
+			<h2>Catalog</h2>
 			<table>
-				<thead>
-					<tr>
-						<th>Наименование товара</th>
-						<th>+</th>
-						<th>-</th>
+				<tbody>
+					<tr class="bg_color">
+						<td>Беговая дорожка Spirit XT185</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
 					</tr>
-					<tbody>
-						<tr>
-							<td>Беговая дорожка Spirit XT185</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Беговая дорожка магнитная USA Style (SS-401)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Беговая дорожка USA Style (SS-1365)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Велотренажер FitLogic BF6100</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Велотренажер Sportop B600</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Велотренажер магнитный Torneo Nova (B-225)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Массажный стол (дерев. рама) Relax (HO 1007)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>
-								Массажный стол 2-х секционный (алюмин. рама) Relax розовый (HY-2010-1.3)
-							</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Массажный стол USA Style (SS-MT-003 A)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<td>Массажный стол 3-х секционный (дерев. рама) Relax (HY-30110)</td>
-							<td>+</td>
-							<td>-</td>
-						</tr>
-					</tbody>
-				</thead>
+					<tr>
+						<td>Беговая дорожка магнитная USA Style (SS-401)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr class="bg_color">
+						<td>Беговая дорожка USA Style (SS-1365)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr>
+						<td>Велотренажер FitLogic BF6100</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr class="bg_color">
+						<td>Велотренажер Sportop B600</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr>
+						<td>Велотренажер магнитный Torneo Nova (B-225)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr class="bg_color">
+						<td>Массажный стол (дерев. рама) Relax (HO 1007)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr>
+						<td>
+							Массажный стол 2-х секционный (алюмин. рама) Relax розовый (HY-2010-1.3)
+						</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr class="bg_color">
+						<td>Массажный стол USA Style (SS-MT-003 A)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+					<tr>
+						<td>Массажный стол 3-х секционный (дерев. рама) Relax (HY-30110)</td>
+						<td class="delete_img">&ndash;</td>
+						<td class="add_img">+</td>
+					</tr>
+				</tbody>
 			</table>
 			<div class="catalog_img">
-				<img src="img/sports-equipment.jpg" alt="picture" width="300" height="270"></div>
+				<img src="img/sports-equipment.jpg" alt="picture" width="300" height="285">
+			</div>
 			<!-- /catalog_img -->
+		<div class="clearfix"></div>
+			<div class="catalog_pages">
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+			</div>
 		</div>
 		<!-- /wrapper -->
 	</section>
@@ -193,7 +191,7 @@
 	<!-- about us -->
 	<article id="about_us">
 		<div class="wrapper">
-			<h1>About Us</h1>
+			<h2>About Us</h2>
 			<div class="top_article">
 				<img src="img/sliderImg6.png" alt="picture" width="150" height="120">
 				<p>
@@ -229,9 +227,9 @@
 
 	<div class="contacts" id="contacts">
 		<div class="wrapper">
-			<h1>ФОРМА ОБРАТНОЙ СВЯЗИ</h1>
+			<h2>ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
 			<form action="" method="post">
-				<h2>ЗДЕСЬ ВЫ СМОЖЕТЕ ОТПРАВИТЬ НАМ СООБЩЕНИЕ</h2>
+				<h3>ЗДЕСЬ ВЫ СМОЖЕТЕ ОТПРАВИТЬ НАМ СООБЩЕНИЕ</h3>
 				<div>
 					<label for="name">ВАШЕ ИМЯ:</label>
 					<input type="name" id="name" placeholder="Ваше имя" autocomplete="off" />
@@ -240,7 +238,7 @@
 					<label for="email">ВАШ E-MAIL:</label>
 					<input type="email" id="email" placeholder="Ваш e-mail" autocomplete="off" />
 				</div>
-				<h2>ВЫБЕРИТЕ ТЕМУ ДЛЯ ПИСЬМА И НАПИШИТЕ СООБЩЕНИЕ</h2>
+				<h3>ВЫБЕРИТЕ ТЕМУ ДЛЯ ПИСЬМА И НАПИШИТЕ СООБЩЕНИЕ</h3>
 				<div>
 					<label for="theme">ТЕМА ПИСЬМА</label>
 					<select id="theme">
@@ -255,7 +253,7 @@
 					<label for="message">СООБЩЕНИЕ</label>
 					<textarea name="" id="message" cols="25" rows="10"></textarea>
 				</div>
-				<h2>ВВЕДИТЕ КАПЧУ И НАЖМИТЕ "ОТПРАВИТЬ"</h2>
+				<h3>ВВЕДИТЕ КАПЧУ И НАЖМИТЕ "ОТПРАВИТЬ"</h3>
 				<div>
 					<label>9 + 18 =</label>
 					<input type="text" />
@@ -295,6 +293,9 @@
 			<div class="boxes footer_nav">
 				<ul>
 					<li>
+						<a href="#promo">Promo</a>
+					</li>
+					<li>
 						<a href="#slider">Slider</a>
 					</li>
 					<li>
@@ -316,5 +317,36 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="admin_panel">
+		<p>ADMIN PANEL</p>
+		<div class="admin_content">
+			<form action="">
+				<fieldset>
+					<legend>ВРЕМЯ ДИСКОНТА</legend>
+					<input type="nuber" placeholder="число">
+					<input type="nuber" placeholder="месяц">
+					<input type="nuber" placeholder="год">
+					<p><input type="button" value="submit"></p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	
+<div class="product_info">
+	<div class="product_description">
+		<img src="img/sliderImg6.png" alt="alt">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ab dignissimos, ullam. Reiciendis iure quisquam hic quis, numquam nisi. Deserunt, iusto nostrum est totam molestiae vitae ullam reiciendis nulla dolores! Modi quam, sunt eaque suscipit, nam id, itaque error molestias fugiat ipsa saepe, molestiae exercitationem. Molestiae unde vero repudiandae, sunt. Eligendi eos earum, sed eveniet fugiat architecto quae illum quisquam.</p>
+	</div>
+	<form action="#">
+		<label for="checkbox">lorem</label>
+		<input type="checkbox" id="checkbox">
+		<input type="checkbox" id="checkbox">
+		<input type="checkbox" id="checkbox">
+		<input type="button" value="price">
+	</form>
+</div>
+
+
 </body>
 </html>

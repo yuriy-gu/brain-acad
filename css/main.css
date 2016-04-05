@@ -19,9 +19,9 @@ body {
 	max-width: 776px;
 }
 
-.catalog h1,
-article h1,
-.contacts h1 {
+.catalog h2,
+article h2,
+.contacts h2 {
 	font-size: 2rem;
 	padding-bottom: 15px;
 	text-align: center;
@@ -35,12 +35,6 @@ article h1,
 article,
 .contacts {
 	padding: 20px 0;
-	overflow: auto;
-}
-
-.top_content,
-.catalog {
-	background-color: #363636;
 }
 
 .top_article img:hover,
@@ -57,12 +51,17 @@ article img,
 .contacts img {
 	border: 3px solid #cccaca;
 }
-
+.navigation span.next,
+.navigation span.prev,
+.pagination li {
+	cursor: pointer;
+}
 
 /* ================ header ================ */
 header {
 	background-color: #00A1D2;
-	height: 50px;
+	padding-bottom: 5px;
+	position: relative;
 }
 header img {
 	background-color: #00A1D2;
@@ -70,11 +69,17 @@ header img {
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
 	padding: 6px;
+	position: absolute;
+	top: 6px;
 }
 nav {
 	float: right;
 }
 nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	padding-top: 25px;
 }
@@ -91,8 +96,7 @@ nav a:hover {
 
 /* ================ top_content ================ */
 .top_content {
-	border-bottom: 1px solid #949494;
-	border-top: 1px solid #949494;
+	background: url(../img/grey_wash_wall.png);
 }
 .top_text {
 	float: left;
@@ -114,41 +118,46 @@ nav a:hover {
 	background-color: #f2f2f2;
 	text-align: center;
 }
-.slider_text h1,
-.slider_text p {
+.slider_text h1 {
+	color: #000;
+	font-size: 1.125rem;
+}
+.slider_text h2 {
 	color: #444;
+	font-size: 1rem;
+	font-weight: normal;
 }
-.slider_text p {
-	padding-top: 5px;
+.slider_text h2 {
+	padding-top: 10px;
 }
-.slider hr {
-	background-color: #b6b6b6;
-	height: 3px;
-	margin-top: 20px;
+.slider_img a {
+	margin-right: 20px;
+}
+.slider_img a:last-child {
+	margin-right: 0;
 }
 .slider_img {
-	background-color: #fff;
+	border-top: 3px solid #b6b6b6;
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
 	display: -o-inline-flex;
 	display: inline-flex;
 	margin: 12px;
+	padding-top: 30px;
 }
 .slider_img img {
+	background-color: #fff;
 	border: 3px solid #00A1D2;
+	display: block;
 	height: 130px;
 	padding: 10px;
 	width: 140px;
 }
-.slider_img a:hover {
+.slider_img img:hover {
 	background-color: #0DBFF5;
 }
-.slider_img a {
-	color: #b6b6b6;
-}
 .item_name {
-	background-color: #f2f2f2;
 	color: #00A1D2;
 	display: block;
 	padding-top: 10px;
@@ -162,7 +171,7 @@ nav a:hover {
 	display: block;
 	height: 22px;
 	position: relative;
-	top: -175px;
+	top: -155px;
 	width: 32px;
 }
 .navigation span.prev {
@@ -184,23 +193,57 @@ nav a:hover {
 	margin-left: 10px;
 	width: 20px;
 }
+.pagination li:hover {
+	background-color: #00C4FF;
+}
 
 /* ================ catalog ================ */
-.catalog h1 {
+.catalog {
+	background-color: #363636;;
+}
+.catalog h2 {
 	color: red;
 }
 .catalog table {
 	float: left;
 	width: 56%;
 }
+.catalog table thead{
+	margin-bottom: 10px;
+}
 .catalog table th,
 .catalog table td {
 	color: #fff;
-	padding-bottom: 5px;
-	padding-left: 7px;
+	padding: 4px 5px;
+	vertical-align: middle;
+}
+.catalog table .bg_color{
+	background-color: #585757;
+}
+.catalog table tr:hover{
+	background-color: #999;
+}
+.catalog .delete_img {
+	color: red;
+}
+.catalog .add_img {
+	color: #06FF06;
 }
 .catalog_img {
 	float: right;
+}
+.catalog_pages {
+	margin-top: 10px;
+}
+.catalog_pages a{
+	background-color: #444;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px;
+}
+.catalog_pages a:hover {
+	background-color: #777;
+	color: red;
 }
 
 /* ================ about us ================ */
@@ -235,8 +278,8 @@ article img {
 	text-align: center;
 	margin: 0 167px;
 }
-.contacts h1,
-.contacts form h2 {
+.contacts h2,
+.contacts form h3 {
 	color: #00a1d2;
 	margin-bottom: 10px;
 }
@@ -263,7 +306,7 @@ article img {
 	width: 110px;
 }
 #buttons input:hover {
-	background-color: #00C3FF;
+	background-color: #75DFFF;
 	border: none;
 }
 
@@ -363,9 +406,59 @@ footer {
 	text-align: center;
 }
 
+/* ========== admin panel ========== */
+.admin_panel {
+	background-color: blue;
+	padding: 5px;
+	position: fixed;
+	left: -4%;
+	top: 50%;
+	-moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    text-align: center;
+	width: 120px;
+}
+.admin_panel:hover {
+	margin-left: 400px;
+}
+.admin_content {
+    background-color: #fff;
+    height: 200px;
+    position: absolute;
+    right: -135px;
+    margin-top: 100px;
+	-moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    width: 400px;
+}
+.admin_content legend {
+	margin: 10px 0 30px;
+}
+.admin_content input {
+	margin-bottom: 30px;
+	width: 100px;
+}
+.admin_content input[type="button"] {
+	width: 80px;
+}
+
+
+/* ========== product info ==========*/
+.product_info {
+	/*overflow: hidden;*/
+	width: 800px;
+}
+
+
+
 
 .clearfix {
 	clear: both;
 }
-/*make a footer 1st column - text then social(vk, facebook etc) img-sprite*/
 /*float если мы используем свойство float - обтекание элементов, то после надо создать блок div и прописать ему clear:both;*/
+/*у формы убрать стандартные настройки*/
+/*http://subtlepatterns.com - backgrouns for site*/
