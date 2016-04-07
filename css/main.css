@@ -449,10 +449,17 @@ footer {
 
 /* ========== product info ==========*/
 .product_info {
-	/*overflow: hidden;*/
-	width: 800px;
+	/*display: none;*/
+	width: 600px;	
 }
-
+.product_description img {
+	float: left;
+	margin-right: 15px;
+	text-align: justify;
+}
+.product_info form {
+	margin: 10px 0;
+}
 
 
 
@@ -462,3 +469,4 @@ footer {
 /*float если мы используем свойство float - обтекание элементов, то после надо создать блок div и прописать ему clear:both;*/
 /*у формы убрать стандартные настройки*/
 /*http://subtlepatterns.com - backgrouns for site*/
+/*caniuse.com for ms, moz, webkit - кроссбраузерность*/
