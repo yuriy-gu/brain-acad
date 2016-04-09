@@ -89,6 +89,9 @@ nav ul li {
 nav ul li:last-child{
 	padding-right: 0;
 }
+nav a {
+	color: #fff;
+}
 nav a:hover {
 	color: darkorange;
 }
@@ -291,8 +294,18 @@ article img {
 	width: 30%;
 }
 .contacts form input {
+	border: 1px solid #00a1d2;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	margin-bottom: 10px;
+	padding-left: 5px;
+	outline: none;
 	width: 195px;
+}
+.contacts form input:focus,
+.contacts form textarea:focus {
+	background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed;
 }
 .contacts textarea {
 	margin: 10px 0;
@@ -411,7 +424,7 @@ footer {
 	background-color: blue;
 	padding: 5px;
 	position: fixed;
-	left: -4%;
+	left: -3%;
 	top: 50%;
 	-moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);

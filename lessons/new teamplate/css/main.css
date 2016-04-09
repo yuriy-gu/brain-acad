@@ -1,0 +1,170 @@
+body {
+	background-color: #fff;
+	font-size: 100%;
+	font-family: Tahoma;
+}
+
+.wrapper {
+	width: 660px;
+	margin: 0 auto;
+}
+header {
+	background: #121821;
+}
+header .top_text {
+	float: left;
+}
+header .top_text p,
+header .header_links li a {
+	padding: 8px 0 7px;
+	color: #56606b;
+	font-size: 0.6875rem;
+}
+header .header_links li a {
+	text-decoration: underline;
+}
+header .top_text p a {
+	color: #99a7b5;
+	font-size: 0.6875rem;
+	text-decoration: underline;
+}
+header .header_links {
+	float: right;
+	padding-top: 3px;
+}
+header .header_links li {
+	display: inline-block;
+	padding-right: 8px;
+}
+
+/* logo */
+.header_footer {
+	background: #18202b;
+}
+.logo {
+	padding-top: 23px;
+	padding-bottom: 20px;
+}
+.logo img {
+	float: left;
+	padding-right: 5px;
+}
+.logo p {
+	color: #fff;
+}
+.logo em {
+	color: #fff;
+	font-size: 11px;
+	font-style: normal;	
+}
+.logo strong {
+	float: right;
+	color: #fff;
+}
+
+/* slider */
+.slider {
+	background: #1e2735;
+	padding-top: 45px;
+	padding-bottom: 145px;
+}
+.slider_text {
+	float: left;
+	margin-right: 40px;
+	width: 45%;
+}
+.slider h1,
+.slider h2 {
+	color: #fff;
+}
+.slider h3 {
+	font-size: 12px;
+	color: #7e8c95;
+}
+.slider a {
+	background: #d5d6d6;
+	padding: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.slider a:hover{
+	background: #b5cae6;
+}
+
+/* main */
+
+.main {
+	background: #fff;
+	position: relative;
+}
+.main section {
+	background: #fff;
+	width: 665px;
+	position: absolute;
+	top: -100px;
+	left: 26.5%;
+}
+
+.main article {
+	padding: 20px 0 20px 20px;
+	border-bottom: 1px dashed grey;
+	float: left;
+	width: 60%;
+}
+.main article h3 {
+	font-size: 19px;
+}
+.main article a {
+	color: #007bc5;
+	text-decoration: underline;
+	font-size: 12px;
+}
+.main .top_box_text {
+	margin-top: 10px;
+	float: left;
+	width: 55%;
+}
+.main .top_box_text strong,
+.main .bottom_box_text strong,
+.main article p {
+	color: #666666;
+	font-size: 12px;
+}
+.main .top_box_text p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top_box img {
+	float: right;
+}
+
+/* middle_box */
+.middle_box img {
+	margin: 10px 0;
+}
+.middle_box p {
+	padding-bottom: 10px;
+}
+ /* bottom_box */
+.bottom_box img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.bottom_box p {
+	padding-top: 10px;
+}
+.main article img {
+	border: 1px solid #000;
+}
+
+/* aside */
+aside {
+	float: right;
+	width: 20%;
+}
+
+
+.clearfix {
+	clear: both;
+}
