@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<title>brain acdaemy</title>
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/main.css" />
@@ -53,7 +53,7 @@
 			</div>
 			<!-- /top_text -->
 			<div>
-				<img src="img/sporttovaru.jpg" alt="sports-equipment" width="305" height="155"></div>
+				<img src="img/aboutUs_1.png" alt="sports-equipment" width="305" height="185"></div>
 			<!-- /top_img -->
 		</div>
 		<!-- /wrapper-->
@@ -85,12 +85,12 @@
 
 				<a href="#">
 					<img src="img/USA Style (SS-1365).jpeg" alt="alt">
-					<span span class="item_name">lorem Ipsum</span>
+					<span class="item_name">lorem Ipsum</span>
 				</a>
 
 				<a href="#">
 					<img src="img/FitLogic BF6100.jpeg" alt="alt">
-					<span span class="item_name">lorem Ipsum</span>
+					<span class="item_name">lorem Ipsum</span>
 				</a>
 			</div>
 			<!-- /slider_img-->
@@ -193,7 +193,7 @@
 		<div class="wrapper">
 			<h2>About Us</h2>
 			<div class="top_article">
-				<img src="img/sliderImg6.png" alt="picture" width="150" height="120">
+				<img src="img/aboutUs_2.png" alt="picture" width="150" height="120">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, voluptate nam blanditiis doloribus quod facilis neque quas quis voluptates ut, sint odit provident, harum sit porro quia quaerat a repellat!
 					Deleniti quidem, aliquid enim accusantium, ut dignissimos repellat omnis corporis quis, tempora illum in magnam, eum libero fugit? Perferendis aliquid quisquam laborum repellat nulla! Quibusdam nostrum neque sapiente, in possimus!
@@ -204,7 +204,7 @@
 
 			<div class="bottom_article">
 				<div class="bottom_article_img">
-					<img src="img/sports-equipment.jpg" alt="alt" width="170px" height="120">
+					<img src="img/aboutUs_3.png" alt="alt" width="170" height="120">
 					<div class="small_img">
 						<img src="img/footbal.png" alt="alot" width="50" height="50">
 						<img src="img/hockey.png" alt="alot" width="50" height="50">
@@ -228,7 +228,7 @@
 	<div class="contacts" id="contacts">
 		<div class="wrapper">
 			<h2>ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
-			<form action="" method="post">
+			<form action="#" method="post">
 				<h3>ЗДЕСЬ ВЫ СМОЖЕТЕ ОТПРАВИТЬ НАМ СООБЩЕНИЕ</h3>
 				<div>
 					<label for="name">ВАШЕ ИМЯ:</label>
@@ -311,12 +311,14 @@
 						<a href="#footer">Footer</a>
 					</li>
 				</ul>
-			</div>
-			<div class="footer_bttm clearfix">
+			</div>/<!-- /boxes footer_nav -->
+			<div class="footer_bttm">
 				<p>All right reserved</p>
-			</div>
-		</div>
+			</div><!-- =============== /footer_bttm =============== -->
+		</div><!-- /wrapper -->
 	</footer>
+
+	<!-- =============== ADMIN_PANEL =============== -->
 
 	<div class="admin_panel">
 		<p>ADMIN PANEL</p>
@@ -330,23 +332,39 @@
 					<p><input type="button" value="submit"></p>
 				</fieldset>
 			</form>
-		</div>
-	</div>
+		</div><!-- /admin_content -->
+	</div><!-- /admin_panel -->
 	
-<div class="product_info wrapper">
+	<!-- =============== OVERLAY (product info)=============== -->
+
+<div class="overlay">
+	<dialog>
 	<div class="product_description">
 		<img src="img/sliderImg6.png" alt="alt"  width="170px" height="120">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ab dignissimos, ullam. Reiciendis iure quisquam hic quis, numquam nisi. Deserunt, iusto nostrum est totam molestiae vitae ullam reiciendis nulla dolores! Modi quam, sunt eaque suscipit, nam id, itaque error molestias fugiat ipsa saepe, molestiae exercitationem. Molestiae unde vero repudiandae, sunt. Eligendi eos earum, sed eveniet fugiat architecto quae illum quisquam.</p>
-	</div>
+	</div><!-- product_description -->
 	<div class="clearfix"></div>
 	<form action="#">
 		<label for="checkbox">lorem</label>
-		<input type="checkbox" id="checkbox">
-		<input type="checkbox" id="checkbox">
-		<input type="checkbox" id="checkbox">
+		<input type="radio" id="radio">
+		<input type="radio" id="radio">
+		<input type="radio" id="radio">
 		<input type="button" value="price">
 	</form>
-</div>
+	
+	<div class="timer">
+		<span class="box">1</span>
+		<span class="box">7</span>
+		<span class="box q">:</span>
+		<span class="box">3</span>
+		<span class="box">0</span>
+		<span class="box q">:</span>
+		<span class="box">0</span>
+		<span class="box">0</span>
+	</div>
+
+	</dialog>
+</div><!-- /overlay -->
 
 
 
