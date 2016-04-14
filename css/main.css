@@ -20,8 +20,7 @@ body {
 }
 
 .catalog h2,
-article h2,
-.contacts h2 {
+article h2 {
 	font-size: 2rem;
 	padding-bottom: 15px;
 	text-align: center;
@@ -280,7 +279,9 @@ article img {
 }
 .contacts form {
 	text-align: center;
-	margin: 0 167px;
+	margin-right: 20px;
+	float: left;
+	width: 400px;
 }
 .contacts h2,
 .contacts form h3 {
@@ -309,7 +310,7 @@ article img {
 	background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed;
 }
 .contacts textarea {
-	margin: 10px 0;
+	margin: 20px 0;
 }
 #buttons input {
 	background-color: #00a1d2;
@@ -322,6 +323,9 @@ article img {
 #buttons input:hover {
 	background-color: #75DFFF;
 	border: none;
+}
+.contacts img {
+	margin-top: 50px;
 }
 
 
@@ -469,6 +473,7 @@ footer {
 	height: 100%;
 	width: 100%;
 	z-index: 999;
+	display: none;
 }
 dialog {
 	background: #fff;

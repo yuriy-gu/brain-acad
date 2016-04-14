@@ -1,0 +1,31 @@
+/* line 7, ../sass/_main.scss */
+.menu li {
+  color: blue;
+}
+
+/* line 10, ../sass/_main.scss */
+.return, .cancel, .save {
+  background: #ff9999;
+  color: red;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: inset 1px 2px 5px #010101;
+  width: 70px;
+}
+/* line 19, ../sass/_main.scss */
+.return:hover, .cancel:hover, .save:hover {
+  background-color: blue;
+}
+
+/* line 23, ../sass/_main.scss */
+.cancel {
+  background: #cccc00;
+  color: yellow;
+}
+
+/* line 29, ../sass/_main.scss */
+.save {
+  background: #004d00;
+  color: green;
+}
