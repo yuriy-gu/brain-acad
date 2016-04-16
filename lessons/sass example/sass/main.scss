@@ -3,6 +3,11 @@
 $header_bg: #181818;
 $aside_bg: #EEEEEE;
 $text_color: #6E6E6E;
+$header_hover: #fff;
+$h1_fz: 3rem;
+$h2_fz: 1rem;
+$p_fz: 0.9rem;
+$text_shdow: 1px 1px 1px rgba(0,0,0,.7);
 
 .wrapper {
 	margin: 0 20px;
@@ -35,7 +40,8 @@ header {
 		padding: 10px;
 
 		&:hover {
-			background: #000;
+			background: #666;
+			color: $header_hover;
 		}
 	}
 
@@ -61,7 +67,7 @@ header {
 
 /* =============== main =============== */
 .main {
-	margin-top: 20px
+	margin-top: 30px
 }
 
 /* ===== aside ===== */
@@ -73,15 +79,16 @@ aside {
 
 	p {
 		color: $text_color;
-		font-size: 0.9em;
-		padding: 10px 0 10px 10px;
+		font-size: $p_fz;
+		padding: 5px 0 0 10px;
+		text-shadow: $text_shdow;
 	}
 	
 	a {
 		color: #1589C9;
 		display: block;
 		font-size: 0.8em;
-		padding: 10px;
+		padding: 5px 10px;
 
 		&:hover {
 			background: #1589C9;
@@ -102,13 +109,13 @@ section {
 	padding: 70px 30px;
 
 	h1 {
-		font-size: 3rem;
+		font-size: $h1_fz;
 		color: darken($text_color, 25%);
 	}
 
 	h2 {
 		color: darken($text_color, 25%);
-		font-size: 1rem;
+		font-size: $h2_fz;
 		font-weight: normal;
 		line-height: 20px;
 	}
@@ -136,10 +143,11 @@ section {
 	width: 32.75%;
 
 	h3 {
-		padding-top: 40px;
-		padding-bottom: 10px;
-		font-size: 1.1em;
 		color: darken($text_color, 25%);
+		font-size: 1.1em;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		text-shadow: $text_shdow;
 	}
 
 	h4 {
@@ -154,7 +162,7 @@ section {
 		box-shadow: 1px 2px 1px rgba(1,1,1, 0.5);
 		display: block;
 		font-size: 0.8em;
-		margin-top: 10px;
+		margin-top: 20px;
 		padding: 10px;
 		width: 90px;
 		position: relative;
