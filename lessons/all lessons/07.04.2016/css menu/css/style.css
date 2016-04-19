@@ -1,0 +1,14 @@
+body {
+	background: #F0F0F0;
+	font: 16px Arial, sans-serif;
+}
+.nav ul {
+	list-style: none;
+}
+.nav li a {
+	display: block;
+	background: #bbb;
+	margin: 1px;
+	color: white;
+	width: 200px;
+}
