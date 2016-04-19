@@ -19,7 +19,13 @@ body {
 	font-size: 100%;
 	font-family: Tahoma, sans-serif;
 }
-
+$base-columns-amount: 12; /* 16 */
+@for $i from 1 through $base-columns-amount { /* задали диапазон от 1 до 16*/
+	$minimum-column-width: 100% / $base-columns-amount; /* 100/i (которое равно от 1 до 16)*/
+	.grd-step-column#{$i} { /*название колонки от 1 до 16*/
+		width: $minimum-column-width * $i; /* к ширине добавили 100/i* и так до 16 1я-100%, 2я- 93,75%, 3я-87,5% 4я-81,125% и т.д. (от 100 отнимаем 6,25, от след знач - 6,25 и т.д)*/
+	}
+}
 
 
 /* =============== header =============== */

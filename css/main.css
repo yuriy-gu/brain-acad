@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*http://subtlepatterns.com - backgrouns for site*/
-/*caniuse.com for ms, moz, webkit - ╨║╤А╨╛╤Б╤Б╨▒╤А╨░╤Г╨╖╨╡╤А╨╜╨╛╤Б╤В╤М*/
+/*caniuse.com for ms, moz, webkit - ╨║╤Ç╨╛╤ü╤ü╨▒╤Ç╨░╤â╨╖╨╡╤Ç╨╜╨╛╤ü╤é╤î*/
 /* sourceMappingURL=main.css.map */
 @font-face {
   font-family: 'playball';
@@ -15,7 +15,7 @@
 /* ARTICLE */
 /* CONTACTS */
 /* FOOTER */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000365}}
 .top_content,
 .slider,
 .catalog,
@@ -23,36 +23,36 @@ article,
 .contacts {
   padding: 20px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000371}}
 .top_article img:hover,
 .bottom_article_img img:hover {
   -webkit-transform: matrix(2, 0, 0, 2, 0, 0);
       -ms-transform: matrix(2, 0, 0, 2, 0, 0);
           transform: matrix(2, 0, 0, 2, 0, 0); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000374}}
 .top_img img,
 .catalog_img img,
 article img,
 .contacts img {
   border: 3px solid #cccaca; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000379}}
 .navigation span.next,
 .navigation span.prev,
 .pagination li {
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000383}}
 .wrapper {
   margin: 0 auto;
   max-width: 776px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000385}}
 .clearfix {
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000388}}
 body {
   background-color: #fff;
   font-family: 'playball', sans-serif;
@@ -74,24 +74,24 @@ body {
   /* =============== ADMIN PANEL ===============*/
   /* /admin panel */
   /* ========== PRODUCT INFO (overlay) ==========*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000394}}
   body header {
     background: #00A1D2;
     padding-bottom: 5px;
     position: relative
     /* /nav*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000398}}
     body header img {
       background: #00A1D2;
       border-radius: 30px;
       padding: 6px;
       position: absolute;
       top: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\0000399}}
     body header nav {
       float: right
       /* /ul */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003100}}
       body header nav ul {
         display: -webkit-box;
         display: -webkit-flex;
@@ -99,26 +99,26 @@ body {
         display: flex;
         padding-top: 25px
         /* /nav a*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003101}}
         body header nav ul a {
           color: #000;
           display: block;
           padding: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003102}}
           body header nav ul a:hover {
             color: darkorange;
             box-shadow: 3px -5px 8px rgba(0, 0, 0, 0.7);
             border-radius: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003111}}
   body .top_content {
     background: url(../img/grey_wash_wall.png)
     /* /top_text*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003113}}
     body .top_content .top_text {
       float: left;
       margin-top: 50px;
       width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003114}}
       body .top_content .top_text p {
         color: #fff;
         font-size: 0.875rem;
@@ -126,27 +126,27 @@ body {
         text-transform: uppercase;
         text-shadow: 1px 1px 15px black;
         text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003116}}
     body .top_content img {
       float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003123}}
   body .slider {
     background: #f2f2f2;
     text-align: center
     /* /slider_img  */
     /* /pagination */
     /* /navigation */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003126}}
     body .slider h1 {
       color: #000;
       font-size: 1.125rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003127}}
     body .slider h2 {
       color: #444;
       font-size: 1rem;
       font-weight: normal;
       margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003128}}
     body .slider .slider_img {
       border-top: 3px solid #b6b6b6;
       display: -webkit-inline-box;
@@ -156,14 +156,14 @@ body {
       margin: 12px;
       padding-top: 30px
       /* /a*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003133}}
       body .slider .slider_img a {
         margin-right: 20px
         /* /img */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003134}}
         body .slider .slider_img a:last-child {
           margin-right: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003135}}
         body .slider .slider_img a img {
           background: #fff;
           border: 3px solid #00A1D2;
@@ -172,21 +172,21 @@ body {
           height: 130px;
           width: 130px;
           padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003136}}
           body .slider .slider_img a img:hover {
             background: #0DBFF5;
             -webkit-transform: rotate(360deg);
                 -ms-transform: rotate(360deg);
                     transform: rotate(360deg);
-            -webkit-transition: all linear .2s;
-                    transition: all linear .2s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003138}}
+            -webkit-transition: all linear .4s;
+                    transition: all linear .4s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003138}}
         body .slider .slider_img a .item_name {
           color: #00A1D2;
           display: block;
           margin-top: 10px;
           text-shadow: 1px 1px 5px rgba(255, 47, 0, 0.9); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003141}}
     body .slider .pagination li {
       background: #0DBFF5;
       border-radius: 50px;
@@ -197,112 +197,112 @@ body {
       height: 20px;
       width: 20px;
       margin-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003142}}
       body .slider .pagination li:hover {
         background: #FF6713;
         box-shadow: 0px 0px 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003144}}
     body .slider .navigation {
       position: absolute
       /* /navigation span */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003145}}
       body .slider .navigation span {
         display: block;
         height: 22px;
         width: 32px;
         position: relative;
         top: -155px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003152}}
       body .slider .navigation .prev {
         background: url(../img/arrows.png) no-repeat;
         float: left;
         right: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003153}}
       body .slider .navigation .next {
         background: url(../img/arrows.png) no-repeat 100% 0;
         left: 770px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003161}}
   body .catalog {
     background: #363636
     /* /catalog table */
     /* /catalog_pagination */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003163}}
     body .catalog h2 {
       color: red;
       font-size: 2rem;
       text-align: center;
       margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003164}}
     body .catalog table {
       float: left;
       width: 56%;
       font-family: Tahoma
       /* /td */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003168}}
       body .catalog table .bg_color {
         background: #585757; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003169}}
       body .catalog table tr:hover {
         background: #999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003170}}
       body .catalog table td {
         border: 1px solid grey;
         color: #fff;
         padding: 4px 5px;
         vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003176}}
       body .catalog table .delete_img {
         color: red; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003177}}
       body .catalog table .add_img {
         color: #06FF06; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003179}}
     body .catalog img {
       float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003180}}
     body .catalog .catalog_pagination {
       margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003182}}
       body .catalog .catalog_pagination a {
         background: #444;
         border-radius: 10px;
         color: #fff;
         padding: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003183}}
         body .catalog .catalog_pagination a:hover {
           background: #777;
           color: red; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003191}}
   body article {
     background: #064954;
     text-align: justify
     /* /bottom_article_img*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003193}}
     body article h2 {
       color: #000;
       font-size: 2rem;
       text-align: center;
       margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003194}}
     body article img {
       background: #fff;
       border-radius: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003195}}
     body article .top_article img {
       float: left;
       margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003196}}
     body article .bottom_article_img {
       float: right;
       margin-left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003197}}
       body article .bottom_article_img .small_img img {
         margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003204}}
   body .contacts {
     background: #1F1D1D
     /* /form */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003206}}
     body .contacts form {
       text-align: center;
       margin-right: 20px;
@@ -311,24 +311,24 @@ body {
       font-family: Tahoma
       /* /input */
       /* /buttons */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003207}}
       body .contacts form h2 {
         color: #00a1d2;
         margin-bottom: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003208}}
       body .contacts form h3 {
         color: #00a1d2;
         margin-bottom: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003209}}
       body .contacts form label {
         color: #E8DB25;
         float: left;
         text-align: left;
         width: 30%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003210}}
       body .contacts form label[for="message"] {
         margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003211}}
       body .contacts form input {
         border: 1px solid #00a1d2;
         border-radius: 10px;
@@ -336,18 +336,18 @@ body {
         padding-left: 5px;
         outline: none;
         width: 195px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003218}}
         body .contacts form input:focus {
           background: -webkit-repeating-linear-gradient(135deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003220}}
       body .contacts form textarea {
         border-radius: 10px;
         margin: 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003221}}
         body .contacts form textarea:focus {
           background: -webkit-repeating-linear-gradient(135deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed;
           background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003223}}
       body .contacts form #buttons input {
         background-color: #00a1d2;
         border-radius: 10px;
@@ -355,24 +355,22 @@ body {
         margin: 0 24px;
         padding: 5px;
         width: 110px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003230}}
         body .contacts form #buttons input:hover {
           background-color: #75DFFF;
           border: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003233}}
     body .contacts img {
       border-radius: 200px;
       margin-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003239}}
   body footer {
     background: #064954;
     height: 150px
     /* /social */
     /* sprite generator */
-    /* x */
-    /* y */
     /* /footer_nav */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003240}}
     body footer .boxes {
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
@@ -384,22 +382,22 @@ body {
           -ms-flex-direction: column;
               flex-direction: column;
       margin: 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003241}}
     body footer .social {
       margin-right: 5%;
       text-align: center;
       width: 36%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003242}}
       body footer .social p {
         color: #25A707;
         font-size: 1.125rem;
         font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003243}}
       body footer .social a {
         float: left;
         margin-top: 15px;
         margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003244}}
       body footer .social .fb, body footer .social .fb:hover,
       body footer .social .rss, body footer .social .rss:hover,
       body footer .social .tw, body footer .social .tw:hover,
@@ -408,66 +406,81 @@ body {
         border-radius: 30px;
         height: 50px;
         width: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
     body footer .fb-icon {
       background: url(../img/social-sprite.png) 0px -47px no-repeat;
       display: inline-block;
       height: 50px;
       width: 50px;
       border-radius: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003265}}
+      body footer .fb-icon:hover {
+        background-position: 0px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
     body footer .rss-icon {
       background: url(../img/social-sprite.png) -50px -47px no-repeat;
       display: inline-block;
       height: 50px;
       width: 50px;
       border-radius: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003265}}
+      body footer .rss-icon:hover {
+        background-position: -50px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
     body footer .tw-icon {
       background: url(../img/social-sprite.png) -100px -47px no-repeat;
       display: inline-block;
       height: 50px;
       width: 50px;
       border-radius: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003265}}
+      body footer .tw-icon:hover {
+        background-position: -100px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
     body footer .utube-icon {
       background: url(../img/social-sprite.png) -150px -47px no-repeat;
       display: inline-block;
       height: 50px;
       width: 50px;
       border-radius: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003265}}
+      body footer .utube-icon:hover {
+        background-position: -150px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003259}}
     body footer .vk-icon {
       background: url(../img/social-sprite.png) -200px -47px no-repeat;
       display: inline-block;
       height: 50px;
       width: 50px;
       border-radius: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003265}}
+      body footer .vk-icon:hover {
+        background-position: -200px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003285}}
     body footer .footer_nav {
       float: right
       /* /li */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003286}}
       body footer .footer_nav li {
         float: left;
         margin-left: 10px;
         text-align: center
         /* /a */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003287}}
         body footer .footer_nav li a {
           border-radius: 10px;
           background-color: #363636;
           color: #25A707;
           padding: 5px;
           width: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003293}}
           body footer .footer_nav li a:hover {
             color: #363636;
             background-color: #3EF115; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003297}}
     body footer .footer_bttm {
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003311}}
   body .admin_panel {
     background-color: blue;
     padding: 5px;
@@ -480,10 +493,10 @@ body {
     text-align: center;
     width: 120px
     /* /admin_content */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003320}}
     body .admin_panel:hover {
       margin-left: 400px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003321}}
     body .admin_panel .admin_content {
       background-color: #fff;
       height: 200px;
@@ -494,17 +507,17 @@ body {
           -ms-transform: rotate(270deg);
               transform: rotate(270deg);
       width: 400px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003329}}
       body .admin_panel .admin_content legend {
         margin: 10px 0 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003330}}
       body .admin_panel .admin_content input {
         margin-bottom: 30px;
         width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003331}}
       body .admin_panel .admin_content input[type="button"] {
         width: 80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/sass\/_style\.scss}line{font-family:\00003344}}
   body .overlay {
     background: url(../img/overlay.png);
     position: fixed;
@@ -515,4 +528,4 @@ body {
     display: none; }
 
 /* /body */
-/* ╨┐╨╡╤А╨╡╨╜╨╡╤Б╤В╨╕ ╨▓╤Б╨╡ ╨╜╨░ sass, ╤Б╨┐╤А╨░╨╣╤В╤Л ╨┐╨╡╤А╨╡╨╜╨╡╤Б╤В╨╕ ╨╜╨░ ╤Ж╨╕╨║╨╗╤Л, ╤Ж╨▓╨╡╤В╨░ ╨▓╤Л╨╜╨╡╤Б╤В╨╕ ╨▓ ╨╛╤В╨┤╨╡╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕*/
+/* ╨┐╨╡╤Ç╨╡╨╜╨╡╤ü╤é╨╕ ╨▓╤ü╨╡ ╨╜╨░ sass, ╤ü╨┐╤Ç╨░╨╣╤é╤ï ╨┐╨╡╤Ç╨╡╨╜╨╡╤ü╤é╨╕ ╨╜╨░ ╤å╨╕╨║╨╗╤ï, ╤å╨▓╨╡╤é╨░ ╨▓╤ï╨╜╨╡╤ü╤é╨╕ ╨▓ ╨╛╤é╨┤╨╡╨╗╤î╨╜╤ï╨╡ ╤ü╤é╨╕╨╗╨╕*/

@@ -33,7 +33,7 @@ $slider_bg: #f2f2f2;
 @mixin slider_h1 { color: #000;	font-size: 1.125rem; }
 @mixin slider_h2 { color: #444;	font-size: 1rem; font-weight: normal; }
 @mixin slider_img { background: #fff; border: 3px solid #00A1D2; border-radius: 100px; display: block; height: 130px; width: 130px; padding: 10px; }
-@mixin slider_img_hover { background: #0DBFF5; transform: rotate(360deg); transition: all linear .2s; }
+@mixin slider_img_hover { background: #0DBFF5; transform: rotate(360deg); transition: all linear .4s; }
 @mixin item_name { color: #00A1D2; display: block; margin-top: 10px; text-shadow: 1px 1px 5px rgba(255, 47, 0, .9); }
 @mixin pagination { background: #0DBFF5; border-radius: 50px; display: inline-flex; height: 20px; width: 20px; margin-left: 10px; }
 @mixin pagination_hover { background: #FF6713; box-shadow: 0px 0px 10px; }
@@ -253,15 +253,19 @@ body {
 	}/* /social */
 
 	/* sprite generator */
-	$i: 0; /* x */
-	$b: -47; /* y */
+	$i: 0;
+	$b: 0;
 	@each $sprite in fb, rss, tw, utube, vk {
 		.#{$sprite}-icon {
-			background: url(../img/social-sprite.png) #{$i}px #{$b}px no-repeat;
+			background: url(../img/social-sprite.png) #{$i}px -47px no-repeat;
 			display: inline-block;
 			height: 50px;
 			width: 50px;
 			border-radius: 30px;
+			&:hover {
+				background-position: #{$b}px 0;
+				$b: $b - 50;
+			}
 		}
 		$i: $i - 50;
 	}
