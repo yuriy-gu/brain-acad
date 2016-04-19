@@ -1,110 +1,4 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\000035}}
-.cancel, .save {
-  background: rgba(142, 108, 178, 0.7);
-  color: #fff;
-  border: none;
-  border-right: 15px;
-  padding: 10px 15px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\0000314}}
-.save {
-  background: #8e6cb2;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\0000318}}
-.mix {
-  background: #f95d6c;
-}
-
-/*p {
-	width: (1em + 2em)*3;
-}*/
-/* ╨║ ╨┐╤Ç╨╕╨╝╨╡╤Ç╤â ╤â ╨╜╨░╤ü ╨╡╤ü╤é╤î ╤ü╨░╨╣╤é ╤ê╨╕╤Ç╨╕╨╜╨╛╨╣ ╨▓ 1200px, ╨╕ ╤Ç╨░╤ü╤ü╤é╨╛╤Å╨╜╨╕╨╡ ╨╝╨╡╨╢╨┤╤â ╨║╨╛╨╗╨╛╨╜╨║╨░╨╝╨╕ 10px,
- ╨╝╤ï ╨╕╤ü╨┐╨╛╨╗╤î╨╖╤â╨╡╨╝ 12╨║╨╛╨╗╨╛╨╜╨╛╤ç╨╜╤â╤Ä ╤ü╨╕╤ü╤é╨╡╨╝╤â, ╨┐╨╛╨╗╤â╤ç╨╕╨╝ 1200-10*11 = 1090, ╤ü╨╛╨╛╤é╨▓╨╡╤é╤ü╨▓╨╡╨╜╨╜╨╛ 1090/12 ╨╕ ╨┐╨╛╨╗╤â╤ç╨░╨╡╨╝
-$grid-width: 90,83333333px; ╨┤╨╗╤Å ╤ü╨╕╤ü╤é╨╡╨╝╤ï ╨║╨╛╨╗╨╛╨╜╨╛╨║ ╨┐╨╛ ╤é╨╕╨┐╤â bootstrapa  
-$grid-width: 40px;
-$gutter-width: 10px;
-
-@function grid-width($n) {
-	@return $n * $grid-width + ($n - 1) * $gutter-width;// ╤ü╨┤╨╡╨╗╨░╨╗╨╕ ╤ä╤â╨╜╨║╤å╨╕╤Ä ╨╕ ╨▓ css ╨┐╨╛╨╗╤â╤ç╨╕╨╗╨╕ aside{width:240px}
-}
-
-aside { 
-	width: grid-width(5); 
-	border: 1px solid red;
-	margin-top: 15px;
-}*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\0000375}}
-h1 {
-  font-family: Arail;
-  font-size: 1em;
-  font-weight: bold;
-  color: #ff0000;
-  border-color: blue;
-  border-width: 1px;
-  border-style: dashed;
-  border-color: red;
-  border-width: 5px;
-  border-style: dashed;
-  color: #ff0000;
-  background-color: #00ff00;
-  border-color: #0000ff;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\0000382}}
-p {
-  border: 1px solid;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\0000391}}
-.button {
-  color: green;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003106}}
-.item-1 {
-  width: 2em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003106}}
-.item-2 {
-  width: 4em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003106}}
-.item-3 {
-  width: 6em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003111}}
-.item-1 {
-  background: red;
-  height: 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003115}}
-.item-2 {
-  background: yellow;
-  height: 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003123}}
-.item-6 {
-  width: 12em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003123}}
-.item-4 {
-  width: 8em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003123}}
-.item-2 {
-  width: 4em;
-}
-
 /* in css it will be:
 .monday-icon {
 	background-image: url('/img/monday.png');
@@ -118,49 +12,44 @@ p {
 .thursday-icon {
 	background-image: url('/img/thursday.png');
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .gray-icon {
   background: url(../img/sprite.png) 0px 0px no-repeat;
-  /*╨╛╨▒╤Ç╨░╤ë╨░╨╡╨╝╤ü╤Å ╨║ ╨╜╨░╤ê╨╡╨╝╤â img ╨╕ ╤é.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤ü╨┤╨▓╨╕╨╜╤â╤é╤î ╨┐╨╛ ╤à, ╨▓╨╝╨╡╤ü╤é╨╛ 0 ╨┐╨╛╨┤╤ü╤é╨░╨▓╨╗╤Å╨╡╨╝ ╨╜╨░╤ê╤â ╨┐╨╡╤Ç╨╡╨╝╨╡╨╜╨╜╤â╤Ä*/
+  /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
   display: inline-block;
   width: 16px;
-  height: 16px;
-}
+  height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .yellow-icon {
   background: url(../img/sprite.png) -16px 0px no-repeat;
-  /*╨╛╨▒╤Ç╨░╤ë╨░╨╡╨╝╤ü╤Å ╨║ ╨╜╨░╤ê╨╡╨╝╤â img ╨╕ ╤é.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤ü╨┤╨▓╨╕╨╜╤â╤é╤î ╨┐╨╛ ╤à, ╨▓╨╝╨╡╤ü╤é╨╛ 0 ╨┐╨╛╨┤╤ü╤é╨░╨▓╨╗╤Å╨╡╨╝ ╨╜╨░╤ê╤â ╨┐╨╡╤Ç╨╡╨╝╨╡╨╜╨╜╤â╤Ä*/
+  /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
   display: inline-block;
   width: 16px;
-  height: 16px;
-}
+  height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .red-icon {
   background: url(../img/sprite.png) -32px 0px no-repeat;
-  /*╨╛╨▒╤Ç╨░╤ë╨░╨╡╨╝╤ü╤Å ╨║ ╨╜╨░╤ê╨╡╨╝╤â img ╨╕ ╤é.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤ü╨┤╨▓╨╕╨╜╤â╤é╤î ╨┐╨╛ ╤à, ╨▓╨╝╨╡╤ü╤é╨╛ 0 ╨┐╨╛╨┤╤ü╤é╨░╨▓╨╗╤Å╨╡╨╝ ╨╜╨░╤ê╤â ╨┐╨╡╤Ç╨╡╨╝╨╡╨╜╨╜╤â╤Ä*/
+  /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
   display: inline-block;
   width: 16px;
-  height: 16px;
-}
+  height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .green-icon {
   background: url(../img/sprite.png) -48px 0px no-repeat;
-  /*╨╛╨▒╤Ç╨░╤ë╨░╨╡╨╝╤ü╤Å ╨║ ╨╜╨░╤ê╨╡╨╝╤â img ╨╕ ╤é.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤ü╨┤╨▓╨╕╨╜╤â╤é╤î ╨┐╨╛ ╤à, ╨▓╨╝╨╡╤ü╤é╨╛ 0 ╨┐╨╛╨┤╤ü╤é╨░╨▓╨╗╤Å╨╡╨╝ ╨╜╨░╤ê╤â ╨┐╨╡╤Ç╨╡╨╝╨╡╨╜╨╜╤â╤Ä*/
+  /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
   display: inline-block;
   width: 16px;
-  height: 16px;
-}
+  height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .blue-icon {
   background: url(../img/sprite.png) -64px 0px no-repeat;
-  /*╨╛╨▒╤Ç╨░╤ë╨░╨╡╨╝╤ü╤Å ╨║ ╨╜╨░╤ê╨╡╨╝╤â img ╨╕ ╤é.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤ü╨┤╨▓╨╕╨╜╤â╤é╤î ╨┐╨╛ ╤à, ╨▓╨╝╨╡╤ü╤é╨╛ 0 ╨┐╨╛╨┤╤ü╤é╨░╨▓╨╗╤Å╨╡╨╝ ╨╜╨░╤ê╤â ╨┐╨╡╤Ç╨╡╨╝╨╡╨╜╨╜╤â╤Ä*/
+  /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
   display: inline-block;
   width: 16px;
-  height: 16px;
-}
+  height: 16px; }
 
-/*# sourceMappingURL=style.css.map */
+/**/
