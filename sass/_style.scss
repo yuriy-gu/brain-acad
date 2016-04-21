@@ -2,15 +2,6 @@
 /*http://subtlepatterns.com - backgrouns for site*/
 /*caniuse.com for ms, moz, webkit - кроссбраузерность*/
 /* sourceMappingURL=main.css.map */
-@font-face {
-    font-family: 'playball';
-    src: url('../fonts/playball/playball.eot');
-    src: url('ptsans-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/playball/playball.woff') format('woff'),
-         url('../fonts/playball/playball.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* HEADER */
 $header_bg: #00A1D2;
@@ -82,6 +73,14 @@ article img,
 
 .wrapper { margin: 0 auto; max-width: 776px; }
 
+.row { font-size: 0; 
+[class*="grd-step-column"] {
+		 		display: inline-block;
+		 		vertical-align: middle;
+		 		padding: 0 5px;
+		 		box-sizing: border-box;
+		 	}
+	}
 .clearfix { clear: both; }
 
 
@@ -95,8 +94,8 @@ body {
 		background: $header_bg;
 		padding-bottom: 5px;
 		position: relative;
-		img { background: $header_bg; border-radius: 30px; padding: 6px; position: absolute; top: 6px; }
-		nav { float: right;
+		img { background: $header_bg; border-radius: 20px; padding: 6px; position: absolute; top: 15px; }
+		nav { font-size: 16px;
 			ul { display: flex; padding-top: 25px;
 				a { color: $a_color; display: block; padding: 5px;
 				&:hover { color: $a_hover; box-shadow: 3px -5px 8px rgba(0,0,0,.7); border-radius: 10px; }
@@ -110,12 +109,9 @@ body {
 	/* ========== TOP_CONTENT ========== */
 	.top_content {
 		background: $top_content_bg;
-		.top_text { float: left; margin-top: 50px; width: 50%;
-			p { @include top_text; }
-		 }/* /top_text*/
-			img { float: right; }
+	 		p { @include top_text; }
+			img { border-radius: 20px; }
 	} /* /top_content */
-
 
 
 
@@ -176,7 +172,7 @@ body {
 			.delete_img { color: $table_del; }
 			.add_img { color: $table_add; }
 		}/* /catalog table */
-		img { float: right; }
+		img { float: right; border-radius: 20px;}
 		.catalog_pagination {
 			margin-top: 10px;
 			a { @include table_pagination;
@@ -184,6 +180,8 @@ body {
 			}
 		}/* /catalog_pagination */
 	}/* /catalog*/
+
+
 
 
 
@@ -200,6 +198,8 @@ body {
 
 
 
+
+
 	/* ========== CONTACTS (FORM) ========== */
 	.contacts {
 		background: $contacts_bg;
@@ -207,7 +207,8 @@ body {
 			h2 { @include contacts_h2_h3; }
 			h3 { @include contacts_h2_h3; }
 			label { @include contacts_label; }
-			label[for="message"] { margin-top: 20px;}
+			label[for="message"] { margin-top: 20px; }
+			#theme { border-radius: 10px; outline: none; }
 			input {
 				border: 1px solid #00a1d2;
 				border-radius: 10px;
@@ -217,7 +218,7 @@ body {
 				width: 195px;
 				&:focus { background: -webkit-repeating-linear-gradient(135deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
 			}/* /input */
-			textarea { border-radius: 10px; margin: 20px 0;
+			textarea { border-radius: 10px; margin: 20px 0; outline:none;
 				&:focus { background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
 			}
 			#buttons input {
@@ -232,6 +233,8 @@ body {
 		}/* /form */
 		img { border-radius: 200px; margin-top: 50px; }
 	}/* /contacts*/
+
+
 
 
 
@@ -252,36 +255,6 @@ body {
 			}
 	}/* /social */
 
-	/* sprite generator */
-	$i: 0;
-	$b: 0;
-	@each $sprite in fb, rss, tw, utube, vk {
-		.#{$sprite}-icon {
-			background: url(../img/social-sprite.png) #{$i}px -47px no-repeat;
-			display: inline-block;
-			height: 50px;
-			width: 50px;
-			border-radius: 30px;
-			&:hover {
-				background-position: #{$b}px 0;
-				$b: $b - 50;
-			}
-		}
-		$i: $i - 50;
-	}
-	
-	// $i: 0; /* x */
-	// $b: 0; /* y */
-	// @each $sprite_hover:hover in fb, rss, tw, utube, vk {
-	// 	.#{$sprite_hover}-icon {
-	// 		background: url(../img/social-sprite.png) #{$i}px #{$b}px no-repeat;
-	// 		display: inline-block;
-	// 		height: 50px;
-	// 		width: 50px;
-	// 		border-radius: 30px;
-	// 	}
-	// 	$i: $i - 50;
-	// }
 		.footer_nav { float: right;
 			li { float: left; margin-left: 10px; text-align: center;
 				a {
@@ -294,115 +267,8 @@ body {
 				}/* /a */
 			}/* /li */
 		}/* /footer_nav */
+		p { font-family: "Times New Roman"; }
 		.footer_bttm { text-align: center; }
 	}/* /footer */
-
-
-
-
-
-
-
-
-	/* =============== ADMIN PANEL ===============*/
-
-
-
-	.admin_panel {
-		background-color: blue;
-		padding: 5px;
-		position: fixed;
-		left: -3%;
-		top: 50%;
-     	transform: rotate(90deg);
-    	text-align: center;
-		width: 120px;
-		&:hover { margin-left: 400px; }
-		.admin_content {
- 		   background-color: #fff;
-    		height: 200px;
-    		position: absolute;
-    		right: -135px;
-    		margin-top: 100px;
-     		transform: rotate(270deg);
-    		width: 400px;
-    		legend { margin: 10px 0 30px; }
-    		input { margin-bottom: 30px; width: 100px; }
-    		input[type="button"] { width: 80px; }
-		}/* /admin_content */
-	}/* /admin panel */
-
-
-
-
-
-
-	/* ========== PRODUCT INFO (overlay) ==========*/
-
-
-
-	.overlay {
-		background: url(../img/overlay.png);
-		position: fixed;
-		top: 0;
-		height: 100%;
-		width: 100%;
-		z-index: 999;
-		display: none;
-	}
-
-// dialog {
-// 	background: #fff;
-// 	display: block;
-// 	position: fixed;
-// 	top: 50%;
-// 	left: 50%;
-// 	margin: 0 auto;
-// 	margin-left: -350px;
-// 	padding: 20px;
-// 	-webkit-transform: translateY(-50%);
-// 	    -ms-transform: translateY(-50%);
-// 	        transform: translateY(-50%);
-// 	width: 700px;
-// }
-// .product_description img {
-// 	float: left;
-// 	margin-right: 15px;
-// 	margin-bottom: 15px;
-// 	text-align: justify;
-// }
-// dialog form {
-// 	margin: 10px 0;
-// 	float: left;
-// }
-// dialog .timer {
-// 	float: right;
-// }
-// dialog .box {
-// 	font-size: 30px;
-// 	border: 3px outset #D8C9C9;
-// 	border-radius: 5px;
-// 	box-shadow: 0px 0px 6px 1px #000000 inset;
-// 	padding: 10px 5px;
-// 	position: relative;
-// }
-// dialog .q {
-// 	border: none;
-// 	box-shadow: none;
-// }
-// dialog .box:before {
-// 	content: "";
-// 	display: block;
-// 	position: absolute;
-// 	left: 0;
-// 	top: 50%;
-// 	height: 1px;
-// 	width: 100%;
-// 	background: #fff;
-// }
-// dialog .q:before {
-// 	display: none;
-// }
-
 
 } /* /body */

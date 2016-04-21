@@ -12,7 +12,6 @@
 .thursday-icon {
 	background-image: url('/img/thursday.png');
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .gray-icon {
   background: url(../img/sprite.png) 0px 0px no-repeat;
   /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
@@ -20,7 +19,6 @@
   width: 16px;
   height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .yellow-icon {
   background: url(../img/sprite.png) -16px 0px no-repeat;
   /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
@@ -28,7 +26,6 @@
   width: 16px;
   height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .red-icon {
   background: url(../img/sprite.png) -32px 0px no-repeat;
   /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
@@ -36,7 +33,6 @@
   width: 16px;
   height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .green-icon {
   background: url(../img/sprite.png) -48px 0px no-repeat;
   /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
@@ -44,7 +40,6 @@
   width: 16px;
   height: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/brain-acad\/lessons\/sass\/sass\/_main\.scss}line{font-family:\00003148}}
 .blue-icon {
   background: url(../img/sprite.png) -64px 0px no-repeat;
   /*╨╛╨▒╤А╨░╤Й╨░╨╡╨╝╤Б╤П ╨║ ╨╜╨░╤И╨╡╨╝╤Г img ╨╕ ╤В.╨║. ╨╜╨░╨╝ ╨╜╨░╨┤╨╛ ╤Б╨┤╨▓╨╕╨╜╤Г╤В╤М ╨┐╨╛ ╤Е, ╨▓╨╝╨╡╤Б╤В╨╛ 0 ╨┐╨╛╨┤╤Б╤В╨░╨▓╨╗╤П╨╡╨╝ ╨╜╨░╤И╤Г ╨┐╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Г╤О*/
@@ -53,3 +48,5 @@
   height: 16px; }
 
 /**/
+
+/*# sourceMappingURL=style.css.map */

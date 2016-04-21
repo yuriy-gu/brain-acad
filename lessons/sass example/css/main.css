@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
   border: 0;
   margin: 0;
@@ -8,214 +7,174 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   text-decoration: none;
   color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 html, body {
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 b, strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 img {
   color: transparent;
   font-size: 0;
   vertical-align: middle;
   -ms-interpolation-mode: bicubic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 ol, ul {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 li {
   display: list-item; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 th, td, caption {
   font-weight: normal;
   vertical-align: top;
   text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 q {
   quotes: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 q:before, q:after {
   content: '';
   content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 sub, sup, small {
   font-size: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 sub, sup {
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 sub {
   bottom: -0.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/_reset\.scss}line{font-family:\000031}}
 svg {
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000312}}
 .wrapper {
   margin: 0 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000317}}
 body {
   background: #fff;
   font-size: 100%;
   font-family: Tahoma, sans-serif; }
 
 /* 16 */
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column1 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 8.33333%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 8.33333%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column2 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 16.66667%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 16.66667%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column3 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 25%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 25%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column4 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 33.33333%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 33.33333%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column5 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 41.66667%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 41.66667%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column6 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 50%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 50%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column7 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 58.33333%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 58.33333%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column8 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 66.66667%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 66.66667%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column9 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 75%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 75%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column10 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 83.33333%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 83.33333%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column11 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 91.66667%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 91.66667%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
-/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤é 1 ╨┤╨╛ 16*/
-/* 100/i (╨║╨╛╤é╨╛╤Ç╨╛╨╡ ╤Ç╨░╨▓╨╜╨╛ ╨╛╤é 1 ╨┤╨╛ 16)*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000325}}
+/* ╨╖╨░╨┤╨░╨╗╨╕ ╨┤╨╕╨░╨┐╨░╨╖╨╛╨╜ ╨╛╤В 1 ╨┤╨╛ 16*/
+/* 100/i (╨║╨╛╤В╨╛╤А╨╛╨╡ ╤А╨░╨▓╨╜╨╛ ╨╛╤В 1 ╨┤╨╛ 16)*/
 .grd-step-column12 {
-  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤é 1 ╨┤╨╛ 16*/
-  width: 100%
-  /* ╨║ ╤ê╨╕╤Ç╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤é╨░╨║ ╨┤╨╛ 16 1╤Å-100%, 2╤Å- 93,75%, 3╤Å-87,5% 4╤Å-81,125% ╨╕ ╤é.╨┤. (╨╛╤é 100 ╨╛╤é╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤é ╤ü╨╗╨╡╨┤ ╨╖╨╜╨░╤ç - 6,25 ╨╕ ╤é.╨┤)*/ }
+  /*╨╜╨░╨╖╨▓╨░╨╜╨╕╨╡ ╨║╨╛╨╗╨╛╨╜╨║╨╕ ╨╛╤В 1 ╨┤╨╛ 16*/
+  width: 100%;
+  /* ╨║ ╤И╨╕╤А╨╕╨╜╨╡ ╨┤╨╛╨▒╨░╨▓╨╕╨╗╨╕ 100/i* ╨╕ ╤В╨░╨║ ╨┤╨╛ 16 1╤П-100%, 2╤П- 93,75%, 3╤П-87,5% 4╤П-81,125% ╨╕ ╤В.╨┤. (╨╛╤В 100 ╨╛╤В╨╜╨╕╨╝╨░╨╡╨╝ 6,25, ╨╛╤В ╤Б╨╗╨╡╨┤ ╨╖╨╜╨░╤З - 6,25 ╨╕ ╤В.╨┤)*/ }
 
 /* =============== header =============== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000332}}
 header {
   background: #181818; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000335}}
   header nav {
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000339}}
   header ul li {
     color: #6E6E6E;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000344}}
   header a {
     color: #6E6E6E;
     padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000348}}
     header a:hover {
       background: #666;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000354}}
   header form,
   header label,
   header input {
     color: #6E6E6E; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000360}}
   header form {
     float: right;
     padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000364}}
     header form input {
       background: #181818;
       border: none;
@@ -223,56 +182,46 @@ header {
 
 /* /header*/
 /* =============== main =============== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000375}}
 .main {
   margin-top: 30px; }
 
 /* ===== aside ===== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000380}}
 aside {
   background: #EEEEEE;
   float: left;
   margin-right: 20px;
   width: 13.344%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000386}}
   aside p {
     color: #6E6E6E;
     font-size: 0.9rem;
     padding: 5px 0 0 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000393}}
   aside a {
     color: #1589C9;
     display: block;
     font-size: 0.8em;
     padding: 5px 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\0000399}}
     aside a:hover {
       background: #1589C9;
       color: #fff; }
 
 /* /aside */
 /* ===== top_article ===== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003109}}
 section {
   float: right;
   width: 83%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003113}}
 .top_article {
   background: #EEEEEE;
   padding: 70px 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003117}}
   .top_article h1 {
     font-size: 3rem;
     color: #2e2e2e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003122}}
   .top_article h2 {
     color: #2e2e2e;
     font-size: 1rem;
     font-weight: normal;
     line-height: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003129}}
   .top_article a {
     background-color: #106AC9;
     border-radius: 5px;
@@ -281,30 +230,25 @@ section {
     margin-top: 20px;
     padding: 10px;
     width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003138}}
     .top_article a:hover {
       background-color: #1276e1; }
 
 /* /top_article */
 /* ===== column_article ===== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003145}}
 .column_article {
   float: left;
   margin-right: 10px;
   text-align: justify;
   width: 32.75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003151}}
   .column_article h3 {
     color: #2e2e2e;
     font-size: 1.1em;
     margin-top: 40px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003159}}
   .column_article h4 {
     font-size: 0.8em;
     color: #2e2e2e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003164}}
   .column_article a {
     background: #FAFAFA;
     border: 1px solid #d4d4d4;
@@ -316,22 +260,20 @@ section {
     padding: 10px;
     width: 90px;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003176}}
     .column_article a:hover {
       background: #d4d4d4;
       border: 1px solid #d4d4d4;
       border-radius: 4px;
       box-shadow: 1px 2px 1px rgba(1, 1, 1, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003184}}
   .column_article sub {
     position: absolute;
     top: 50%;
     right: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003191}}
 .column_article:last-child {
   margin-right: -100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/student\/Desktop\/brain-acad\/lessons\/sass\%20example\/sass\/main\.scss}line{font-family:\00003197}}
 .clearfix {
   clear: both; }
+
+/*# sourceMappingURL=main.css.map */
