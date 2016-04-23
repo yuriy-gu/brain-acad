@@ -36,12 +36,13 @@ $table_bg_color: #585757;
 $table_bg_color_hover: #999;
 $table_add: #06FF06;
 $table_del: red;
-@mixin table_pagination { background: #444; border-radius: 10px; color: #fff; padding: 5px; }
+@mixin table_pagination { background: #444; border-radius: 10px; color: #fff; font-size: 16px; margin-right: 5px; padding: 5px; }
 @mixin table_pagination_hover { background: #777; color: red; }
 
-/* ARTICLE */
+/* ABOUT US */
 @mixin article_bg { background: #064954; text-align: justify; }
-@mixin article_h2 { color: #000; font-size: 2rem; text-align: center; margin-bottom: 10px; }
+@mixin article_h2 { color: #fff; font-size: 2rem; text-align: center; margin-bottom: 10px; text-shadow: 1px 1px 6px rgba(0,0,0,.7); }
+@mixin article_p { color: #fff; text-shadow: 1px 1px 6px rgba(0,0,0,.7); }
 
 /* CONTACTS */
 $contacts_bg: #1F1D1D;
@@ -158,9 +159,9 @@ body {
 		background: $catalog_bg;
 		h2 { @include catalog_h2; }
 		table {
-			float: left;
-			width: 56%;
 			font-family: Tahoma;
+			font-size: 16px;
+			width: 56%;
 			.bg_color {	background: $table_bg_color; }
 			tr:hover { background: $table_bg_color_hover; }
 			td {
@@ -168,11 +169,12 @@ body {
 				color: #fff;
 				padding: 4px 5px;
 				vertical-align: middle;
+				cursor: pointer;
 			}/* /td */
 			.delete_img { color: $table_del; }
 			.add_img { color: $table_add; }
 		}/* /catalog table */
-		img { float: right; border-radius: 20px;}
+		img { border-radius: 20px;}
 		.catalog_pagination {
 			margin-top: 10px;
 			a { @include table_pagination;
@@ -189,6 +191,7 @@ body {
 	article {
 		@include article_bg;
 		h2 { @include article_h2; }
+		p { @include article_p; }
 		img { background: #fff; border-radius: 100px; }
 		.top_article img { float: left; margin-right: 20px; }
 		.bottom_article_img { float: right; margin-left: 20px;
@@ -203,7 +206,7 @@ body {
 	/* ========== CONTACTS (FORM) ========== */
 	.contacts {
 		background: $contacts_bg;
-		form { text-align: center; margin-right: 20px; float: left; width: 400px; font-family: Tahoma;
+		form { text-align: center; font-family: Tahoma; font-size: 16px;
 			h2 { @include contacts_h2_h3; }
 			h3 { @include contacts_h2_h3; }
 			label { @include contacts_label; }
@@ -216,9 +219,9 @@ body {
 				padding-left: 5px;
 				outline: none;
 				width: 195px;
-				&:focus { background: -webkit-repeating-linear-gradient(135deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
+				&:focus { background: repeating-linear-gradient(135deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
 			}/* /input */
-			textarea { border-radius: 10px; margin: 20px 0; outline:none;
+			textarea { border-radius: 10px; margin: 20px 0; outline:none; resize: none;
 				&:focus { background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #e2edc1 25px, #e2edc1 50px) fixed; }
 			}
 			#buttons input {
@@ -231,7 +234,7 @@ body {
 				&:hover { background-color: #75DFFF; border: none; }
 			}/* /buttons */
 		}/* /form */
-		img { border-radius: 200px; margin-top: 50px; }
+		img { border-radius: 200px; }
 	}/* /contacts*/
 
 
