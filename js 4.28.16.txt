@@ -100,7 +100,13 @@
 // asd(letter, str);
 
 // написать функцию которая принимает два аргумента (a=_ and b=/\/ и что бы случайным образом выдавало a and b (складывалось в строку
+// var timer = setInterval(function func() {
+//   console.log("_" + "/\\");
+// }, 1000);
 
+// setTimeout(function() {
+//   clearInterval(timer);
+// }, 5000);
 
 
 
