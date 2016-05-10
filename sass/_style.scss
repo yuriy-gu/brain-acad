@@ -243,33 +243,27 @@ body {
 
 	/* ========== FOOTER ==========*/
 	footer { background: $footer_bg; height: 150px;
-		.boxes { display: inline-flex; flex-direction: column; margin: 20px 0; }
-		.social { margin-right: 5%; text-align: center;	width: 36%;	
-			p {	color: #25A707;	font-size: 1.125rem; font-weight: bold; }
-			a {	float: left; margin-top: 15px; margin-right: 5px; }
-			.fb, .fb:hover,
-			.rss, .rss:hover,
-			.tw, .tw:hover,
-			.utube, .utube:hover,
-			.vk, .vk:hover {
-				border-radius: 30px;
-				height: 50px;
-				width: 50px;
-			}
-	}/* /social */
-
-		.footer_nav { float: right;
-			li { float: left; margin-left: 10px; text-align: center;
+		p {	color: #25A707;	font-size: 1.125rem; font-weight: bold; text-align:center; }
+		ul { display: inline-flex;}
+		.fb, .fb:hover,
+		.rss, .rss:hover,
+		.tw, .tw:hover,
+		.utube, .utube:hover,
+		.vk, .vk:hover {
+			border-radius: 30px;
+			height: 50px;
+			width: 50px;
+		}
+	/* /social */
 				a {
 					border-radius: 10px;
 					background-color: #363636;
 					color: #25A707;
+					font-size: 16px;
 					padding: 5px;
 					width: 70px;
 					&:hover { color: #363636; background-color: #3EF115; }
 				}/* /a */
-			}/* /li */
-		}/* /footer_nav */
 		p { font-family: "Times New Roman"; }
 		.footer_bttm { text-align: center; }
 	}/* /footer */
