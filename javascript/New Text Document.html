@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+  
 </head>
 <body>
 <p id='outer'>
@@ -14,35 +15,34 @@
   <span class="myspan">four</span>
   
   <script>   
-    var byId = document.getElementById('outer');
+    /*var byId = document.getElementById('outer');
     var allElements = byId.getElementsByClassName('myspan');//выбрали все элементы с классом span в id="outer"
     //console.log(allElements.length);//посмотрим длину
    // console.log(typeof allElements);//массив ли это?
-    
+    //==============================================
     var p = document.getElementsByTagName('p');
     //console.log(allElements.length);//посмотрим длину
     //console.log(typeof allElements);//массив ли это?(тип)
-    
+    //==============================================
      var allElements = document.getElementsByClassName('myspan');//выбрали все элементы с классом span
     //console.log(allElements.length);//посмотрим длину
    //console.log(typeof allElements);//массив ли это?(тип)
     //console.log(allElements);
-    
-	
+    //==============================================	
     var byId = document.getElementById('outer');
 	byId.setAttribute('myAttr', 'myValue');//у p появился атрибут myattr=""myValue
 	for (var i=0; i<allElements.length; i++){
 		console.log(allElements[i].getAttribute('title'));//получили атрибуты элемента title тэга span
 	}
-	
 	function handleClick(elem) {
 		alert(elem.getAttribute('title'));
 	}
-	
 	function Click(event) {
 		console.log(event.target);//<span class="myspan" title="1" onclick="Click(event)">one</span>
-	}
-	
+	}*/
+	//=============================================	
+
   </script>
+  <script src="common.js"></script><!-- async в начале загрузится страницаб затем файл js-->
 </body>
 </html>
