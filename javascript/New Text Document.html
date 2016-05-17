@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>JavaScript</title>
   
 </head>
 <body>
@@ -14,25 +14,32 @@
 </p>
   <span class="myspan">four</span>
   
+  <ul id="myul">
+  	<li>one</li>
+  	<li>two</li>
+  	<li>three</li>
+  	<li>four</li>
+  	<li id='i'>five</li>
+  </ul>
   <script>   
-    /*var byId = document.getElementById('outer');
-    var allElements = byId.getElementsByClassName('myspan');//������� ��� �������� � ������� span � id="outer"
-    //console.log(allElements.length);//��������� �����
-   // console.log(typeof allElements);//������ �� ���?
+   	/*var byId = document.getElementById('outer');
+    var allElements = byId.getElementsByClassName('myspan');//выбрали все элементы с классом span в id="outer"
+    console.log(allElements.length);//посмотрим длину
+    console.log(typeof allElements);//массив ли это?*/
     //==============================================
-    var p = document.getElementsByTagName('p');
-    //console.log(allElements.length);//��������� �����
-    //console.log(typeof allElements);//������ �� ���?(���)
+   	/*var p = document.getElementsByTagName('p');
+   	console.log(allElements.length);//посмотрим длину
+   	console.log(typeof allElements);//массив ли это?(тип)*/
     //==============================================
-     var allElements = document.getElementsByClassName('myspan');//������� ��� �������� � ������� span
-    //console.log(allElements.length);//��������� �����
-   //console.log(typeof allElements);//������ �� ���?(���)
-    //console.log(allElements);
+   	/**var allElements = document.getElementsByClassName('myspan');//выбрали все элементы с классом span
+    console.log(allElements.length);//посмотрим длину
+   	console.log(typeof allElements);//массив ли это?(тип)
+    console.log(allElements);*/
     //==============================================	
-    var byId = document.getElementById('outer');
-	byId.setAttribute('myAttr', 'myValue');//� p �������� ������� myattr=""myValue
+    /*var byId = document.getElementById('outer');
+	byId.setAttribute('myAttr', 'myValue');//у p появился атрибут myattr=""myValue
 	for (var i=0; i<allElements.length; i++){
-		console.log(allElements[i].getAttribute('title'));//�������� �������� �������� title ���� span
+		console.log(allElements[i].getAttribute('title'));//получили атрибуты элемента title тэга span
 	}
 	function handleClick(elem) {
 		alert(elem.getAttribute('title'));
@@ -41,8 +48,47 @@
 		console.log(event.target);//<span class="myspan" title="1" onclick="Click(event)">one</span>
 	}*/
 	//=============================================	
-
+	//its for ul
+	/*var liElements = document.getElementsByTagName('li');
+	for (var i=0; i<liElements.length; i++) {
+		liElements[1].addEventListener('click', (function(localI) {//addEventListener и removeEventListener являются современным способом назначить или удалить обработчик, и при этом позволяют использовать сколько угодно любых обработчиков. Назначение обработчика осуществляется вызовом addEventListener с минимум двумя аргументами:element.addEventListener(event, handler); событие, обработчик
+			return function() {
+				alert('Index of this element is ' + localI);
+			}
+		})(i));
+	}*/
+	//=============================================	
+	/*//its for id=myul
+	var ul = document.getElementById('myul');
+	console.log(ul.childNodes);//[text, li, text, li, text, li, text, li, text, li, text]  Псевдо-массив childNodes хранит все дочерние элементы, включая текстовые.
+	console.log(ul.children);//[li, li, li, li, li]   только дочерние узлы-элементы, то есть соответствующие тегам.
+	console.log(ul.firstChild);//#text   обеспечивают быстрый доступ к первому и последнему элементу.
+	console.log(ul.firstElementChild);//<li>one</li>  соответственно, первый и последний дети-элементы.
+	console.log(ul.childElementCount);//5 элементов   предназначено только для чтения и возвращает число дочерних элементов узла.
+	console.log(ul.firstElementChild.nextElementSibling);//<li>two</li>  соседи-элементы.
+	console.log(ul.firstElementChild.parentElement);//<ul id="myul">...</ul>    родитель-элемент.
+	//=============================================	
+	var ch = ul.removeChild(ul.firstElementChild);  //разрывает все связи между удаляемым узлом и его родителем, в данном случае удалет первый li
+	console.log(ch);//удалили <li>one</li>
+	//=============================================	
+	//создали таг li перед последним тагом <li>five</li>
+	var newLi = document.createElement('li');
+	ul.insertBefore(newLi, ul.lastElementChild);
+	//тоже самое, создали новый li
+	var i = document.getElementById('i');
+	var newLi = document.createElement('li');
+	i.parentElement.insertBefore(newLi, i);*/
+	//=============================================	
+	function qwerty(newElement,targetElement) {// элемент который будет вставять и элемент после которого
+		var parent = targetElement.parentNode;
+		if (parent.lastChild == targetElement) {// является ли он пследним элементом 
+			parent.appendChild(newElement);
+		} else {
+			parent.insertBefore(newElement,targetElement.nextSibling);
+		}
+	};
+	
   </script>
-  <script src="common.js"></script><!-- async � ������ ���������� ��������� ����� ���� js-->
+  <script src="common.js"></script><!-- async при обнаружении <script async src="..."> браузер не останавливает обработку страницы, а спокойно работает дальше. Когда скрипт будет загружен – он выполнится.-->
 </body>
 </html>
